@@ -1,0 +1,38 @@
+.side-nav {
+    position: fixed;
+    top: 51px;
+    left: 225px;
+    width: 225px;
+    margin-left: -225px;
+    border: none;
+    border-radius: 0;
+    overflow-y: auto;
+    background-color: #fcca16 !important;
+    bottom: 0;
+    overflow-x: hidden;
+    padding-bottom: 40px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #000 !important;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #fff !important;
+    background-color: #1a3562 !important;
+}
+
+.navbar-inverse {
+    background-color: #1a3562 !important;;
+    border-color: #080808;
+}
+
+.top-nav > li > a:hover, .top-nav > li > a:focus, .top-nav > .open > a, .top-nav > .open > a:hover, .top-nav > .open > a:focus {
+    color: #000;
+    background-color: #fcca16 !important;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+    color: #fff !important;
+    background-color: #1a3562 !important;
+}
